@@ -6,9 +6,33 @@ header{
     color: #fff;
 }
 
+hr{
+    color: #17abb3;
+}
+
 img{
     width: 10%;
     border: 1rem;
     border-radius: 80%;
     border-color: #fff;
+}
+
+
+main{
+    display: flex;
+    justify-content: space-around;
+}
+
+#gauche{
+    flex: 1;
+    background-color: rgb(245, 245, 245);
+}
+
+#droite{
+    flex: 3;
+}
+
+footer{
+    text-align: center;
+    background-color: #17abb3;
 }
