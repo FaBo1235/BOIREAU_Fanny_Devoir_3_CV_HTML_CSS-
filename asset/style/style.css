@@ -1,0 +1,14 @@
+header{
+    display: flex;
+    justify-content: space-around;
+    background-color: #17abb3;
+    text-align: left;
+    color: #fff;
+}
+
+img{
+    width: 10%;
+    border: 1rem;
+    border-radius: 80%;
+    border-color: #fff;
+}
