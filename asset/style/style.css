@@ -8,12 +8,12 @@ header{
 
 hr{
     color: #17abb3;
-    display: flex;
-    justify-items: center;
+    text-indent: 5%;
 }
 
 h3{
     color: #17abb3;
+    text-indent: 5%;
 }
 
 img{
