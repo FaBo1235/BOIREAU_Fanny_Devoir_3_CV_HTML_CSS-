@@ -11,9 +11,17 @@ header{
     src: url(https://fonts.google.com/specimen/Raleway);
 }
 
-#id{
+#tete{
     display: flex;
-    flex: 1;
+    justify-content: space-between;
+    color: #fff;
+    a{
+        outline: none;
+        text-decoration: none;
+    }
+    a:link{
+        color: #fff;
+    }
 }
 
 hr{
@@ -111,4 +119,5 @@ li::marker{
     display: flex;
     justify-content: space-around;
     align-items:flex-start;
+    padding-left: 1rem;
 }
