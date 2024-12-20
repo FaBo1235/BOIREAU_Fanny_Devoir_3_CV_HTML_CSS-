@@ -1,6 +1,6 @@
 header{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     background-color: #17abb3;
     text-align: left;
     color: #fff;
@@ -9,6 +9,11 @@ header{
 @font-face{
     font-family: raleway;
     src: url(https://fonts.google.com/specimen/Raleway);
+}
+
+#id{
+    display: flex;
+    flex: 1;
 }
 
 hr{
@@ -58,14 +63,14 @@ footer{
 
 .date{
     color: #17abb3;
-    /*jdisplay: flex;
-    ustify-content: flex-end;
-    justify-items: flex-start;*/
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
 }
 
-#espace{
-    word-spacing: 10%;
-    list-style: none;
+.espace{
+    display: flex;
+    flex: 1;
 }
 
 .bleu{
@@ -98,7 +103,8 @@ li::marker{
 
 .hover:hover{
     background-color: #e3e3e3;
-    border-left: #17abb3;
+    border-left: solid;
+    border-color: #17abb3;
 }
 
 .hover{
