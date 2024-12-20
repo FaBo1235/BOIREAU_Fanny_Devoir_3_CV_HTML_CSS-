@@ -13,12 +13,12 @@ header{
 
 hr{
     color: #17abb3;
-    text-indent: 5%;
+    width: 95%;
 }
 
 h3{
     color: #17abb3;
-    text-indent: 5%;
+    text-indent: 3%;
 }
 
 img{
@@ -32,6 +32,7 @@ img{
 main{
     display: flex;
     justify-content: space-around;
+    /*line-height: 1.1rem;*/
 }
 
 #gauche{
@@ -41,15 +42,23 @@ main{
 
 #droite{
     flex: 3;
+    line-height: 1.1em;
 }
 
 footer{
     display: flex;
-   justify-content: center;
+    justify-content: center;
     background-color: #17abb3;
 }
 
 #alinea{
     text-indent: 5%;
     text-align: justify;
+}
+
+.date{
+    color: #17abb3;
+    display: flex;
+    justify-content: flex-end;
+    align-content: flex-start;
 }
