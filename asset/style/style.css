@@ -58,8 +58,9 @@ footer{
 
 .date{
     color: #17abb3;
-    display: flex;
-    justify-content: flex-end;
+    /*jdisplay: flex;
+    ustify-content: flex-end;
+    justify-items: flex-start;*/
 }
 
 #espace{
@@ -93,4 +94,16 @@ li::marker{
 
 #maps::marker{
     list-style: url(/asset/img/location-dot.jpg);
+}
+
+.hover:hover{
+    background-color: #e3e3e3;
+    border-left: #17abb3;
+}
+
+.hover{
+    display: flex;
+    justify-content: space-around;
+    align-items:flex-start;
+
 }
