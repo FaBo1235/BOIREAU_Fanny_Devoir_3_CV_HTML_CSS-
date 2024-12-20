@@ -6,6 +6,11 @@ header{
     color: #fff;
 }
 
+@font-face{
+    font-family: raleway;
+    src: url(https://fonts.google.com/specimen/Raleway);
+}
+
 hr{
     color: #17abb3;
     text-indent: 5%;
@@ -42,4 +47,9 @@ footer{
     display: flex;
    justify-content: center;
     background-color: #17abb3;
+}
+
+#alinea{
+    text-indent: 5%;
+    text-align: justify;
 }
