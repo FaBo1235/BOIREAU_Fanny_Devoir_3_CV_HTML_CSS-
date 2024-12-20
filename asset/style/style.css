@@ -1,21 +1,10 @@
 header{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     background-color: #17abb3;
     text-align: left;
     color: #fff;
-}
-
-@font-face{
-    font-family: raleway;
-    src: url(https://fonts.google.com/specimen/Raleway);
-}
-
-#tete{
-    display: flex;
-    justify-content: space-between;
-    color: #fff;
-    a{
+        a{
         outline: none;
         text-decoration: none;
     }
@@ -23,6 +12,12 @@ header{
         color: #fff;
     }
 }
+
+@font-face{
+    font-family: raleway;
+    src: url(https://fonts.google.com/specimen/Raleway);
+}
+
 
 hr{
     color: #e3e3e3;
