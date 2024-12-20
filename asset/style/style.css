@@ -12,8 +12,9 @@ header{
 }
 
 hr{
-    color: #17abb3;
+    color: #e3e3e3;
     width: 95%;
+    height: min-content;
 }
 
 h3{
@@ -32,7 +33,6 @@ img{
 main{
     display: flex;
     justify-content: space-around;
-    /*line-height: 1.1rem;*/
 }
 
 #gauche{
@@ -60,5 +60,37 @@ footer{
     color: #17abb3;
     display: flex;
     justify-content: flex-end;
-    align-content: flex-start;
+}
+
+#espace{
+    word-spacing: 10%;
+    list-style: none;
+}
+
+.bleu{
+    list-style: square;
+}
+
+li::marker{
+    color: #17abb3;
+}
+
+.skills{
+    list-style: none;
+}
+
+#mail::marker{
+    list-style: url('/asset/img/envelope.jpg')
+}
+
+#car::marker{
+    list-style: url(/asset/img/car.jpg);
+}
+
+#tel::marker{
+    list-style: url(/asset/img/phone.jpg);
+}
+
+#maps::marker{
+    list-style: url(/asset/img/location-dot.jpg);
 }
